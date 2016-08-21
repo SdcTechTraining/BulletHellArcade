@@ -1,0 +1,1 @@
+SdcArcade is the code name for a project that crosses the FPS and Bullet Hell genres.  It will be built into an arcard game and provided to Pixel Blast Arcade (http://PixelBlastArcade.com) out of Lisle IL.  We will be using the github issues system to track bugs and features.  if you want to contribute please look at this.
