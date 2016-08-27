@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\DestroyOnHitTarget.cs" />
     <Compile Include="Assets\Scripts\ExplodeOnNoHealth.cs" />
+    <Compile Include="Assets\Scripts\GroundChecker.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IGun.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IHealth.cs" />
