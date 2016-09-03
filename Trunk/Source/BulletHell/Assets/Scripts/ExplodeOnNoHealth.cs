@@ -10,7 +10,7 @@ public class ExplodeOnNoHealth : MonoBehaviour, IHealthTrigger
     {
         if (newHealth < 0)
         {
-            var explosion = GameObject.Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
+            GameObject.Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

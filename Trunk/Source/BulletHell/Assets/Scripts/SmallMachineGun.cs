@@ -12,8 +12,6 @@ public class SmallMachineGun : MonoBehaviour, IGun {
     public GameObject StartingShotPrefab;
     public GameObject Prefab { get; set; }
 
-    private bool shoot = false;
-
     private float timeSinceLastShot = 0;
 
     // Use this for initialization

@@ -72,7 +72,9 @@
     <Compile Include="Assets\Scripts\Interfaces\IHealthTrigger.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IShot.cs" />
     <Compile Include="Assets\Scripts\Interfaces\ITarget.cs" />
+    <Compile Include="Assets\Scripts\Master.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\SafeArea.cs" />
     <Compile Include="Assets\Scripts\SmallCannonGun.cs" />
     <Compile Include="Assets\Scripts\SmallMachineGun.cs" />
     <Compile Include="Assets\Scripts\SmallShot.cs" />

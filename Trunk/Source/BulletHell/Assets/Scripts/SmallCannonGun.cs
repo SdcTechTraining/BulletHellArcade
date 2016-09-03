@@ -11,8 +11,6 @@ public class SmallCannonGun
     public GameObject StartingShotPrefab;
     public GameObject Prefab { get; set; }
 
-    private bool shoot = false;
-
     // Use this for initialization
     void Start () {
         Force = StartingForce;
