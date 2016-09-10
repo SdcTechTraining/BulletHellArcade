@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\DestroyOnHitTarget.cs" />
+     <Compile Include="Assets\Scripts\Door.cs" />
      <Compile Include="Assets\Scripts\ExplodeOnNoHealth.cs" />
      <Compile Include="Assets\Scripts\GroundChecker.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
@@ -54,7 +55,9 @@
      <Compile Include="Assets\Scripts\Interfaces\IHealthTrigger.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IShot.cs" />
      <Compile Include="Assets\Scripts\Interfaces\ITarget.cs" />
+     <Compile Include="Assets\Scripts\Master.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\SafeArea.cs" />
      <Compile Include="Assets\Scripts\SmallCannonGun.cs" />
      <Compile Include="Assets\Scripts\SmallMachineGun.cs" />
      <Compile Include="Assets\Scripts\SmallShot.cs" />

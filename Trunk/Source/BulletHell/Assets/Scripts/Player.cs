@@ -6,6 +6,8 @@ using System;
 [RequireComponent(typeof(CapsuleCollider))]
 public class Player : MonoBehaviour
 {
+    public static Player Current { get; set; }
+
     public float Speed = 5f;
     public float LookSpeed = 3f;
 	public float JumpForce = 10f;
@@ -17,6 +19,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        Current = this;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         rigidbody = GetComponent<Rigidbody>();
